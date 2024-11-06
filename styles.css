@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor-titulos: #fff;
+    --cor-botoes: #167BF7;
+    --cor-texto: #C0C0C0;
+    --cor-textos: #F9F9F9;
+    --cor-fundo: #00030c;
+    --fonte: font-family: "Inter";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: var(--cor-titulos);
+    background-color: var(--cor-fundo);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.inicio {
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.inicio_caixa {
+    margin: 0 6em;
+}
+
+.inicio_texto {
+    font-family: "Inter", sans-serif;
+    padding-top: 5%;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.combo {
+    margin: 1em 0 2em 0;
+}
+
+.inicio_botao {
+    text-decoration: none;
+    color: var(--cor-textos);
+    background-color: var(--cor-botoes);
+    font-family: "Inter", sans-serif;
+    border-radius: 5px;
+    padding: 1em;
+    display: flex;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.botao2 {
+    background-color: transparent;
+    border: 1px solid var(--cor-titulos)
+}
+
+.aviso {
+    font-size: 12px;
+    color: var(--cor-texto);
+    font-family: "Inter", sans-serif;
+}
+
+
+.secundario {
+    align-items: center;
+}
+
+.imagem {
+    padding-left: 15%;
+    width: 80%;
+}
+
+.titulo_plataformas {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--cor-titulos);
+}
+
+.texto_plataformas {
+    font-family: "Inter", sans-serif;
+    color: var(--cor-textos);
+    font-weight: 300;
+    padding-top: 2%;
+    padding-right: 15%;
+}
+
+.conteudo {
+    padding-left: 80px;
+    padding-right: 20%;
+}
+
+.conteudo_telas{
+    padding-left: 20%;
+    padding-right: 0%;
+    
+}
+
+.texto_telas{
+    font-family: "Inter", sans-serif;
+    color: var(--cor-textos);
+    font-weight: 300;
+    width: 75%;
+    margin-left: 25%;
+}
+
+.telas {
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 24.5%;
+}
+
+.telas_img{
+    padding-left: 10%;
+}
+
+
+
+.container_dispositivos{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo_dispositivos{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--cor-titulos);
+    padding-bottom: 3%;
+}
+
+.dispositivos{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.celular{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.computador{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-family: "Inter", sans-serif;
+}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    height: 20em;
+}
+
+.lista_rodape{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2%;
+   list-style: none;
+   gap: 2%;
+   justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.texto1{
+    padding-bottom: 2%;
+    color: var(--cor-texto);
+    font-family: "Inter", sans-serif;
+}
+
+.texto2{
+    color: var(--cor-texto);
+    font-family: "Inter", sans-serif;
+    width: 70%;
+    padding-left: 15%;
+    font-size: 14px;
+}
